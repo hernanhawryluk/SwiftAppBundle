@@ -14,6 +14,9 @@
 		A5A8885F2C6EB0DC009E729D /* SwiftAppBundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8885E2C6EB0DC009E729D /* SwiftAppBundleTests.swift */; };
 		A5A888692C6EB0DC009E729D /* SwiftAppBundleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A888682C6EB0DC009E729D /* SwiftAppBundleUITests.swift */; };
 		A5A8886B2C6EB0DC009E729D /* SwiftAppBundleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8886A2C6EB0DC009E729D /* SwiftAppBundleUITestsLaunchTests.swift */; };
+		A5A888782C6EB228009E729D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A888772C6EB228009E729D /* MenuView.swift */; };
+		A5A8887B2C6EB288009E729D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8887A2C6EB288009E729D /* SwiftUIView.swift */; };
+		A5A8887D2C6F7AB9009E729D /* IMCResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8887C2C6F7AB9009E729D /* IMCResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		A5A888642C6EB0DC009E729D /* SwiftAppBundleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAppBundleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A888682C6EB0DC009E729D /* SwiftAppBundleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppBundleUITests.swift; sourceTree = "<group>"; };
 		A5A8886A2C6EB0DC009E729D /* SwiftAppBundleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppBundleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5A888772C6EB228009E729D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		A5A8887A2C6EB288009E729D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		A5A8887C2C6F7AB9009E729D /* IMCResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,10 @@
 		A5A8884C2C6EB0DA009E729D /* SwiftAppBundle */ = {
 			isa = PBXGroup;
 			children = (
+				A5A888792C6EB26F009E729D /* IMC */,
 				A5A8884D2C6EB0DA009E729D /* SwiftAppBundleApp.swift */,
 				A5A8884F2C6EB0DA009E729D /* ContentView.swift */,
+				A5A888772C6EB228009E729D /* MenuView.swift */,
 				A5A888512C6EB0DB009E729D /* Assets.xcassets */,
 				A5A888532C6EB0DB009E729D /* Preview Content */,
 			);
@@ -125,6 +133,15 @@
 				A5A8886A2C6EB0DC009E729D /* SwiftAppBundleUITestsLaunchTests.swift */,
 			);
 			path = SwiftAppBundleUITests;
+			sourceTree = "<group>";
+		};
+		A5A888792C6EB26F009E729D /* IMC */ = {
+			isa = PBXGroup;
+			children = (
+				A5A8887A2C6EB288009E729D /* SwiftUIView.swift */,
+				A5A8887C2C6F7AB9009E729D /* IMCResult.swift */,
+			);
+			path = IMC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5A888502C6EB0DA009E729D /* ContentView.swift in Sources */,
+				A5A888782C6EB228009E729D /* MenuView.swift in Sources */,
+				A5A8887D2C6F7AB9009E729D /* IMCResult.swift in Sources */,
+				A5A8887B2C6EB288009E729D /* SwiftUIView.swift in Sources */,
 				A5A8884E2C6EB0DA009E729D /* SwiftAppBundleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
